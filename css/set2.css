@@ -1,0 +1,87 @@
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	background: #f9f7f6;
+	color: #404d5b;
+	font-weight: 500;
+	font-size: 1.05em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+a {
+	color: #2fa0ec;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #404d5b;
+}
+*:focus {outline: none;}
+a:focus { outline: none;}
+
+/* custom css */
+.form-custom{
+	
+}
+.form-custom .wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3% 6%;
+    background-color: #009fa0;
+	color: #fff;
+}
+.form-custom .heading{}
+.form-custom .sub-heading{}
+.form-custom form .form-row{
+	    margin: 40px 0;
+		    padding: 0 15px;
+}
+.form-custom label{
+	    margin-bottom: 0;
+}
+.form-custom .form-control{
+	background-color: transparent;
+    border: 0 none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+	color: #fff;
+}
+
+.form-custom .error-msg{}
+.form-custom .info-msg{}
+.form-custom button[type="submit"]{
+	    background-color: #fff;
+    color: #009fa0;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px 26px;
+    font-weight: bold;
+    cursor: pointer;
+	border-color: #fff;
+}
+.form-custom button[type="button"]{
+	    background-color: #fff;
+    color: #009fa0;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px 26px;
+    font-weight: bold;
+    cursor: pointer;
+	border-color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+	.form-custom form .form-row .col{
+	width: 100%;
+    display: block;
+    flex: inherit;
+    margin-bottom: 25px;
+	}
+	.form-custom form .form-row .col:last-child{
+		margin-bottom: 0px;
+	}
+}
